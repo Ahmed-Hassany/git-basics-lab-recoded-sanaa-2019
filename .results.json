@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2019-09-23T00:22:54.317Z",
+    "end": "2019-09-23T00:22:54.334Z",
+    "duration": 17
+  },
+  "tests": [
+    {
+      "title": "has a folder named my-repository",
+      "fullTitle": "this lab has a folder named my-repository",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a valid git repository initialized for the my-repository folder",
+      "fullTitle": "this lab has a valid git repository initialized for the my-repository folder",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a README.md file in the my-repository folder",
+      "fullTitle": "this lab has a README.md file in the my-repository folder",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has README.md as a tracked file",
+      "fullTitle": "the local repository has README.md as a tracked file",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has at least one commit",
+      "fullTitle": "the local repository has at least one commit",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has been pushed up to the remote repository",
+      "fullTitle": "the local repository has been pushed up to the remote repository",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist",
+        "showDiff": false,
+        "actual": "./my-repository/.git/logs/refs/remotes",
+        "stack": "AssertionError: no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist\n    at Function.<anonymous> (node_modules/chai-fs/lib/assertions/directory.js:21:53)\n    at Function.ctx.(anonymous function) [as directory] (node_modules/chai/lib/chai/utils/addMethod.js:41:25)\n    at Function.assert.isDirectory (node_modules/chai-fs/lib/assertions/directory.js:34:35)\n    at Context.it (test/index-test.js:33:17)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "has been pushed up to the remote repository",
+      "fullTitle": "the local repository has been pushed up to the remote repository",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist",
+        "showDiff": false,
+        "actual": "./my-repository/.git/logs/refs/remotes",
+        "stack": "AssertionError: no record of pushing to a remote was found. Follow the instructions on GitHub to connect and push to a new remote repository: value: expected './my-repository/.git/logs/refs/remotes' to exist\n    at Function.<anonymous> (node_modules/chai-fs/lib/assertions/directory.js:21:53)\n    at Function.ctx.(anonymous function) [as directory] (node_modules/chai/lib/chai/utils/addMethod.js:41:25)\n    at Function.assert.isDirectory (node_modules/chai-fs/lib/assertions/directory.js:34:35)\n    at Context.it (test/index-test.js:33:17)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "has a folder named my-repository",
+      "fullTitle": "this lab has a folder named my-repository",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a valid git repository initialized for the my-repository folder",
+      "fullTitle": "this lab has a valid git repository initialized for the my-repository folder",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has a README.md file in the my-repository folder",
+      "fullTitle": "this lab has a README.md file in the my-repository folder",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has README.md as a tracked file",
+      "fullTitle": "the local repository has README.md as a tracked file",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has at least one commit",
+      "fullTitle": "the local repository has at least one commit",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
